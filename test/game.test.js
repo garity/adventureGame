@@ -4,7 +4,7 @@ var Game = require('../src/game')
 var Node = require('../src/node')
 
 // To start these specs, remove the x from xdescribe
-xdescribe('Game', function() {
+describe('Game', function() {
 
   var game
   beforeEach(function() {
